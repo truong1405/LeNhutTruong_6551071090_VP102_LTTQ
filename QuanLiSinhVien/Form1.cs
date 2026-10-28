@@ -20,17 +20,11 @@ public partial class Form1 : Form
         LoadData();
     }
 
-    /// <summary>
-    /// Khi Form hiển thị hoàn toàn lên màn hình, xóa rỗng các textbox và bỏ chọn trên bảng
-    /// </summary>
     private void Form1_Shown(object sender, EventArgs e)
     {
         ResetForm();
     }
 
-    /// <summary>
-    /// Cấu hình các cột cho DataGridView
-    /// </summary>
     private void SetupDataGridView()
     {
         dgvSinhVien.AutoGenerateColumns = false;
